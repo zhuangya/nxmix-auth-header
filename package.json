@@ -27,5 +27,6 @@
   "dependencies": {
     "date-fns": "^1.3.0",
     "spark-md5": "^2.0.2"
-  }
+  },
+  "engine": ">=6"
 }
