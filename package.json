@@ -1,0 +1,31 @@
+{
+  "name": "nxmix-auth-header",
+  "version": "0.0.1",
+  "description": "nxmix auth header generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangya/nxmin-hash.git"
+  },
+  "keywords": [
+    "nxmin",
+    "hash",
+    "api"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangya/nxmin-hash/issues"
+  },
+  "homepage": "https://github.com/zhuangya/nxmin-hash#readme",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "dependencies": {
+    "date-fns": "^1.3.0",
+    "spark-md5": "^2.0.2"
+  }
+}
