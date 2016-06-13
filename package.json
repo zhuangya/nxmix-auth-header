@@ -1,6 +1,6 @@
 {
   "name": "nxmix-auth-header",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nxmix auth header generator",
   "main": "index.js",
   "scripts": {
