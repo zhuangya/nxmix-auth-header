@@ -3,10 +3,12 @@
 const url = require('url');
 
 const md5 = require('spark-md5');
-const dateFns = require('date-fns');
+const moment = require('moment-timezone');
 
 module.exports = (partnerName, partnerKey, endpoint, time=new Date) => {
-  const now = dateFns.format(time, 'YYYY-MM-DD HH:mm:ss');
+  const timeInShanghai = moment.tz(time, 'Asia/Shanghai');
+
+  const now = moment(timeInShanghai).format('YYYY-MM-DD HH:mm:ss');
   const reqPath = url.parse(endpoint).path;
   const hash = md5.hash([reqPath, partnerName, now, partnerKey].join('&'));
 
