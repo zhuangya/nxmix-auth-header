@@ -1,6 +1,6 @@
 {
   "name": "nxmix-auth-header",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "nxmix auth header generator",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "api"
   ],
   "author": "Ya Zhuang <zhuangya@gmail.com>",
-  "license": "ISC",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/zhuangya/nxmin-hash/issues"
   },
