@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/zhuangya/nxmin-hash#readme",
   "devDependencies": {
-    "ava": "^0.15.2"
+    "ava": "^2.1.0"
   },
   "dependencies": {
     "moment-timezone": "^0.5.4",
-    "spark-md5": "^2.0.2"
+    "spark-md5": "^3.0.0"
   },
   "engine": ">=6"
 }

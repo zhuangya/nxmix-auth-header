@@ -1,5 +1,7 @@
 #nxmix-auth-header
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zhuangya/nxmix-auth-header.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
